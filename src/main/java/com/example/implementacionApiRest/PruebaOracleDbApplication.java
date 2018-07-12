@@ -20,14 +20,7 @@ public class PruebaOracleDbApplication implements CommandLineRunner {
 	@Autowired
 	@Qualifier("usuarioServ")
 	UsuarioService usuarioService;
-//proving
-	// @Autowired RoleUsuarioService roleUsuarioService;
-	//
-	// @Autowired PermisoService permisoService;
-	//
-	// @Autowired FuncionService funcionService;
-	//
-	// @Autowired RolService rolService;
+
 
 	public static void main(String[] args) {
 
@@ -37,11 +30,7 @@ public class PruebaOracleDbApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//
-//		logger.info("PROBANDO LOGGER  -> {}", usuarioService.getUsuarioById("BBRAGL"));
-//		// logger.info("PROBANDO LOGGER -> {}",usuarioService.getUsuarioById("manuel"));
-//
-//		logger.info("PROBANDO LOGGER  -> {}", usuarioService.getAllusuarios());
+
 
 	}
 }
